@@ -4,7 +4,7 @@
   "description": "A sandbox for building a FE project from scratch",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "lint": "./node_modules/.bin/eslint src/**"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,10 @@
     "url": "https://github.com/EdDaWord/FE-from-scratch/issues"
   },
   "homepage": "https://github.com/EdDaWord/FE-from-scratch#readme",
-  "dependencies": {
-    "webpack": "^4.4.1"
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.7.0",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13"
   }
 }
