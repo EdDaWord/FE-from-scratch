@@ -1,0 +1,22 @@
+{
+  "name": "frontend-project-from-scratch",
+  "version": "0.0.1",
+  "description": "A sandbox for building a FE project from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdDaWord/FE-from-scratch.git"
+  },
+  "author": "Edward Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EdDaWord/FE-from-scratch/issues"
+  },
+  "homepage": "https://github.com/EdDaWord/FE-from-scratch#readme",
+  "dependencies": {
+    "webpack": "^4.4.1"
+  }
+}
