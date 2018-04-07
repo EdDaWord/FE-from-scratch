@@ -2,7 +2,7 @@
   "name": "frontend-project-from-scratch",
   "version": "0.0.1",
   "description": "A sandbox for building a FE project from scratch",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "lint": "./node_modules/.bin/eslint src/**"
   },
@@ -22,5 +22,8 @@
     "eslint-plugin-react": "^7.7.0",
     "webpack": "^4.4.1",
     "webpack-cli": "^2.0.13"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5"
   }
 }
