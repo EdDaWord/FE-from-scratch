@@ -34,6 +34,7 @@ An accumulation of knowledge from [w2 schools](https://www.w3schools.com/) to [r
 
 ## Hello world
 ### Buildtool (webpack)
+- [hello world](https://webpack.js.org/guides/getting-started/)
 - [Webpack core concepts](https://webpack.js.org/concepts/)
 - `npm install webpack webpack-cli --save-dev`
 - [Webpack hello world](https://webpack.js.org/guides/getting-started/)
