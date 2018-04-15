@@ -7,8 +7,13 @@
     "build": "npx webpack --config webpack.config.js",
     "clean": "rimraf dist",
     "lint": "./node_modules/.bin/eslint src/**",
-    "start:dev": "./node_modules/.bin/webpack-dev-server --env.local --mode development"
+    "start:dev": "./node_modules/.bin/webpack-dev-server --env.local --mode development",
+    "test": "echo Hello world, please write tests"
   },
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EdDaWord/FE-from-scratch.git"
