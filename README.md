@@ -1,5 +1,5 @@
 # FE dev from scratch
-An accumulation of knowledge from [w2 schools](https://www.w3schools.com/) to [react](https://reactjs.org/).
+An accumulation of knowledge from w3Schools to w3c.
 
 ## Versioning and Packages
 
