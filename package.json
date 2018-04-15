@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "build": "npx webpack --config webpack.config.js",
+    "clean": "rimraf dist",
     "lint": "./node_modules/.bin/eslint src/**",
     "start:dev": "./node_modules/.bin/webpack-dev-server --env.local --mode development"
   },
