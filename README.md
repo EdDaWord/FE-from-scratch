@@ -29,12 +29,28 @@ An accumulation of knowledge from w3Schools to w3c.
 - `npm install editorconfig-cli --save-dev` OR you can just make your own `.editorConfig` file
 - Create `./node_modules/.bin/ec init` such that it matches linter (sorry)
 
+
+### Transpiler (babel)
+- [babel instalation](https://babeljs.io/docs/setup/#installation)
+- `npm install --save-dev babel-loader babel-core`
+- `npm install babel-preset-env --save-dev`
+	- Compiles from ES6 to ES5.
+	- ES5 
+	- ES6 === ECMAScripts 2015
+- 
+
+
 ### Prettier
--
+- TODO
 
 ## Hello world
 ### Buildtool (webpack)
-- [hello world](https://webpack.js.org/guides/getting-started/)
+- [Webpack getting started](https://webpack.js.org/guides/getting-started/)
 - [Webpack core concepts](https://webpack.js.org/concepts/)
-- `npm install webpack webpack-cli --save-dev`
+- `npm install --save-dev webpack webpack-cli`
 - [Webpack hello world](https://webpack.js.org/guides/getting-started/)
+
+### Dev server
+- `npm install --save-dev webpack-dev-server`
+
+
