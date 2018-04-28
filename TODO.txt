@@ -1,0 +1,4 @@
+Add Prittier
+- https://prettier.io/docs/en/install.html
+
+Add Conventional commits

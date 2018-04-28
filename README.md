@@ -40,9 +40,6 @@ An accumulation of knowledge from w3Schools to w3c.
 - 
 
 
-### Prettier
-- TODO
-
 ## Hello world
 ### Buildtool (webpack)
 - [Webpack getting started](https://webpack.js.org/guides/getting-started/)
