@@ -9,7 +9,7 @@ An accumulation of knowledge from w3Schools to w3c.
 - Clone repo locally `git clone ...`
 
 ### Package manager (npm)
-- Get [npm](https://www.npmjs.com/get-npm
+- Get [npm](https://www.npmjs.com/get-npm)
 - Get [nvm](https://github.com/creationix/nvm)
 - `npm init` to setup package.json
 - Add `.gitignore` to ignore node_modules
@@ -37,7 +37,6 @@ An accumulation of knowledge from w3Schools to w3c.
 	- Compiles from ES6 to ES5.
 	- ES5 
 	- ES6 === ECMAScripts 2015
-- 
 
 
 ## Hello world
