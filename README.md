@@ -18,7 +18,6 @@ Why not do a mono-repo with Lerna? (IDK)
 - Don't forget to add `.gitignore` in order to ignore node_modules & `dist` (bundle output) 
 
 ## Syntax
-[why do all three (lint, editor conf, prettier)](https://stackoverflow.com/questions/48363647/editorconfig-vs-eslint-vs-prettier-is-it-worthwhile-to-use-them-all)
 
 #### Linter (eslint)
 - `npm install eslint --save-dev`
