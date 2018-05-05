@@ -50,3 +50,9 @@ An accumulation of knowledge from w3Schools to w3c.
 - `npm install --save-dev webpack-dev-server`
 
 
+## Release
+### Change logs and tags (Standard-version)
+- `npm install --save-dev standard-version` // Why not `conventional-commits-parser`? (IDK)
+- `npm run release`
+
+

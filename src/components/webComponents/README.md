@@ -1,5 +1,4 @@
 # Web Components
-#study/webDev
 
 There are 4 standards that are need for web components to work
 
@@ -47,14 +46,14 @@ Shadow DOMs exactly the same as regular DOMs except what ever `styling`  in the 
 
 ### Basic usage
 
-```
+```javascript
 let shadow = elementRef.attachShadow({mode: 'open'});
 let shadow = elementRef.attachShadow({mode: 'closed’});
 ``` 
 
 Whether the Shadow DOM of element is accessible through JS
 
-```
+```javascript
 let myShadowDom = myCustomElem.shadowRoot; // null if closed
 ```
 
@@ -71,7 +70,7 @@ Similar to ES6 module imports but HTML imports are within HTML and for HTML. ES6
 The HTML template element specification defines how to declare fragments of markup that go unused at page load, but can be instantiated later on at runtime.
 
 The template element holds HTML code without displaying it:
-```
+```javascript
 <template>
   <h2>Flower</h2>
   <img src="img_white_flower.jpg">
